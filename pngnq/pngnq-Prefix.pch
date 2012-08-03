@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'pngnq' target in the 'pngnq' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

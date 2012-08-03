@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		395334D615C8550200BE6364 /* colorspace.c in Sources */ = {isa = PBXBuildFile; fileRef = 395334D515C8550200BE6364 /* colorspace.c */; };
+		395334E415C8550E00BE6364 /* neuquant32.c in Sources */ = {isa = PBXBuildFile; fileRef = 395334DB15C8550E00BE6364 /* neuquant32.c */; };
+		395334E715C8550E00BE6364 /* pngnq.c in Sources */ = {isa = PBXBuildFile; fileRef = 395334DE15C8550E00BE6364 /* pngnq.c */; };
+		395334E815C8550E00BE6364 /* rwpng.c in Sources */ = {isa = PBXBuildFile; fileRef = 395334DF15C8550E00BE6364 /* rwpng.c */; };
+		395335D815C8A92400BE6364 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 395335D715C8A92400BE6364 /* libz.dylib */; };
+		3953361315C8AC0600BE6364 /* libpngstatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3953361215C8ABF900BE6364 /* libpngstatic.a */; };
+		39BDC44A15C852530048C34C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BDC44915C852530048C34C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3953360F15C8ABF900BE6364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3953360515C8ABF800BE6364 /* libpng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC0630554660B00DB518D;
+			remoteInfo = libpng;
+		};
+		3953361115C8ABF900BE6364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3953360515C8ABF800BE6364 /* libpng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3953355F15C85A2100BE6364;
+			remoteInfo = pngstatic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39BDC44315C852530048C34C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		395334D515C8550200BE6364 /* colorspace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = colorspace.c; path = src/colorspace.c; sourceTree = "<group>"; };
+		395334D815C8550E00BE6364 /* colorspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = colorspace.h; path = src/colorspace.h; sourceTree = "<group>"; };
+		395334D915C8550E00BE6364 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = config.h; path = src/config.h; sourceTree = "<group>"; };
+		395334DA15C8550E00BE6364 /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = errors.h; path = src/errors.h; sourceTree = "<group>"; };
+		395334DB15C8550E00BE6364 /* neuquant32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = neuquant32.c; path = src/neuquant32.c; sourceTree = "<group>"; };
+		395334DC15C8550E00BE6364 /* neuquant32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = neuquant32.h; path = src/neuquant32.h; sourceTree = "<group>"; };
+		395334DE15C8550E00BE6364 /* pngnq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngnq.c; path = src/pngnq.c; sourceTree = "<group>"; };
+		395334DF15C8550E00BE6364 /* rwpng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rwpng.c; path = src/rwpng.c; sourceTree = "<group>"; };
+		395334E015C8550E00BE6364 /* rwpng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = rwpng.h; path = src/rwpng.h; sourceTree = "<group>"; };
+		395335D715C8A92400BE6364 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3953360515C8ABF800BE6364 /* libpng.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpng.xcodeproj; path = libpng/libpng.xcodeproj; sourceTree = "<group>"; };
+		39BDC44515C852530048C34C /* pngnq */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pngnq; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BDC44915C852530048C34C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39BDC44F15C852530048C34C /* pngnq-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pngnq-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39BDC44215C852530048C34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3953361315C8AC0600BE6364 /* libpngstatic.a in Frameworks */,
+				395335D815C8A92400BE6364 /* libz.dylib in Frameworks */,
+				39BDC44A15C852530048C34C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3953360615C8ABF800BE6364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3953361015C8ABF900BE6364 /* liblibpng.dylib */,
+				3953361215C8ABF900BE6364 /* libpngstatic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39BDC43A15C852530048C34C = {
+			isa = PBXGroup;
+			children = (
+				3953360515C8ABF800BE6364 /* libpng.xcodeproj */,
+				39BDC44B15C852530048C34C /* pngnq */,
+				39BDC44815C852530048C34C /* Frameworks */,
+				39BDC44615C852530048C34C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39BDC44615C852530048C34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39BDC44515C852530048C34C /* pngnq */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39BDC44815C852530048C34C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				395335D715C8A92400BE6364 /* libz.dylib */,
+				39BDC44915C852530048C34C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39BDC44B15C852530048C34C /* pngnq */ = {
+			isa = PBXGroup;
+			children = (
+				395334D515C8550200BE6364 /* colorspace.c */,
+				395334D815C8550E00BE6364 /* colorspace.h */,
+				395334D915C8550E00BE6364 /* config.h */,
+				395334DA15C8550E00BE6364 /* errors.h */,
+				395334DB15C8550E00BE6364 /* neuquant32.c */,
+				395334DC15C8550E00BE6364 /* neuquant32.h */,
+				395334DE15C8550E00BE6364 /* pngnq.c */,
+				395334DF15C8550E00BE6364 /* rwpng.c */,
+				395334E015C8550E00BE6364 /* rwpng.h */,
+				39BDC44E15C852530048C34C /* Supporting Files */,
+			);
+			path = pngnq;
+			sourceTree = "<group>";
+		};
+		39BDC44E15C852530048C34C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39BDC44F15C852530048C34C /* pngnq-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39BDC44415C852530048C34C /* pngnq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BDC45415C852530048C34C /* Build configuration list for PBXNativeTarget "pngnq" */;
+			buildPhases = (
+				39BDC44115C852530048C34C /* Sources */,
+				39BDC44215C852530048C34C /* Frameworks */,
+				39BDC44315C852530048C34C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pngnq;
+			productName = pngnq;
+			productReference = 39BDC44515C852530048C34C /* pngnq */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39BDC43C15C852530048C34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Karl Stenerud";
+			};
+			buildConfigurationList = 39BDC43F15C852530048C34C /* Build configuration list for PBXProject "pngnq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39BDC43A15C852530048C34C;
+			productRefGroup = 39BDC44615C852530048C34C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3953360615C8ABF800BE6364 /* Products */;
+					ProjectRef = 3953360515C8ABF800BE6364 /* libpng.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				39BDC44415C852530048C34C /* pngnq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3953361015C8ABF900BE6364 /* liblibpng.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = liblibpng.dylib;
+			remoteRef = 3953360F15C8ABF900BE6364 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3953361215C8ABF900BE6364 /* libpngstatic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpngstatic.a;
+			remoteRef = 3953361115C8ABF900BE6364 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39BDC44115C852530048C34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395334D615C8550200BE6364 /* colorspace.c in Sources */,
+				395334E415C8550E00BE6364 /* neuquant32.c in Sources */,
+				395334E715C8550E00BE6364 /* pngnq.c in Sources */,
+				395334E815C8550E00BE6364 /* rwpng.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39BDC45215C852530048C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		39BDC45315C852530048C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		39BDC45515C852530048C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pngnq/pngnq-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/libpng";
+			};
+			name = Debug;
+		};
+		39BDC45615C852530048C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pngnq/pngnq-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/libpng";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39BDC43F15C852530048C34C /* Build configuration list for PBXProject "pngnq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BDC45215C852530048C34C /* Debug */,
+				39BDC45315C852530048C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39BDC45415C852530048C34C /* Build configuration list for PBXNativeTarget "pngnq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BDC45515C852530048C34C /* Debug */,
+				39BDC45615C852530048C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39BDC43C15C852530048C34C /* Project object */;
+}
